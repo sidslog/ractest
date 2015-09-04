@@ -21,5 +21,13 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func onButton(sender: AnyObject) {
+        
+        let model = ViewModel();
+        model.name.value = "test button";
+        
+        let ctrl = TestViewController(viewModel: model)
+        self.presentViewController(ctrl, animated: true, completion: nil);
+    }
 }
 
