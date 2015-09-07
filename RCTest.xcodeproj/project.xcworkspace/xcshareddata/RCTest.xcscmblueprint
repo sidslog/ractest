@@ -1,0 +1,56 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6F8D4B9E9206D9F604B83D3BE6EAA8A0BA0F5C15+++3E0DCCE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "57C931977B7D2307CC013C2BD93F90CF7C676790+++41AC316" : 0,
+    "6F8D4B9E9206D9F604B83D3BE6EAA8A0BA0F5C15+++3E0DCCE" : 0,
+    "956D2B21DD155C49504BB67697A67F7C5351A353+++6A59FE6" : 0,
+    "51B210D0D41486D3ADD6940D57E4480BBD4DE4C5+++A3FCAF3" : 0,
+    "E084C86B03F81D63323C9E7510697EA528A758C7+++254F926" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "657785FB-9793-4CCA-A1A4-EFF08AA7E53C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "57C931977B7D2307CC013C2BD93F90CF7C676790+++41AC316" : "RCTestExternal\/ReactiveCocoa\/Carthage\/Checkouts\/Box",
+    "6F8D4B9E9206D9F604B83D3BE6EAA8A0BA0F5C15+++3E0DCCE" : "RCTest",
+    "956D2B21DD155C49504BB67697A67F7C5351A353+++6A59FE6" : "RCTestExternal\/ReactiveCocoa\/Carthage\/Checkouts\/Result",
+    "51B210D0D41486D3ADD6940D57E4480BBD4DE4C5+++A3FCAF3" : "RCTestExternal\/ReactiveCocoa",
+    "E084C86B03F81D63323C9E7510697EA528A758C7+++254F926" : "RCTestExternal\/ReactiveCocoa\/Carthage\/Checkouts\/xcconfigs"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RCTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RCTest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ReactiveCocoa\/ReactiveCocoa.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "51B210D0D41486D3ADD6940D57E4480BBD4DE4C5+++A3FCAF3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/robrix\/Box.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "57C931977B7D2307CC013C2BD93F90CF7C676790+++41AC316"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/robrix\/Box.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "57C931977B7D2307CC013C2BD93F90CF7C676790+++41AC316"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sidslog\/ractest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F8D4B9E9206D9F604B83D3BE6EAA8A0BA0F5C15+++3E0DCCE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/antitypical\/Result.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "956D2B21DD155C49504BB67697A67F7C5351A353+++6A59FE6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jspahrsummers\/xcconfigs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E084C86B03F81D63323C9E7510697EA528A758C7+++254F926"
+    }
+  ]
+}

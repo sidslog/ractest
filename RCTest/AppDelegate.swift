@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         let test = TestSignal();
-        test.testProducer();
+        test.testExternalProducer3();
         
         
         return true
