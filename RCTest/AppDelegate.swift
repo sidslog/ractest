@@ -20,7 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let test = TestSignal();
         test.testExternalProducer3();
         
+        var arra = ["1"]
         
+        flatMap(arra, { $0 })
         return true
     }
 

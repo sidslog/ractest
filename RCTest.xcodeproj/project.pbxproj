@@ -10,6 +10,9 @@
 		3B255AF51B99E6F800192072 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B255AF41B99E6F800192072 /* ViewModel.swift */; };
 		3B255AF81B99E78200192072 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B255AF61B99E78200192072 /* TestViewController.swift */; };
 		3B255AF91B99E78200192072 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B255AF71B99E78200192072 /* TestViewController.xib */; };
+		3B65AE8D1B9F0376004F8EE0 /* Try.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B65AE8A1B9EFD90004F8EE0 /* Try.swift */; };
+		3B65AE9D1B9F0566004F8EE0 /* RCTestTry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B65AE9C1B9F0566004F8EE0 /* RCTestTry.swift */; };
+		3B65AE9E1B9F0669004F8EE0 /* Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB77F281B99D328001461BB /* Box.framework */; };
 		3BB77EF11B99D174001461BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB77EF01B99D174001461BB /* AppDelegate.swift */; };
 		3BB77EF31B99D174001461BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB77EF21B99D174001461BB /* ViewController.swift */; };
 		3BB77EF61B99D174001461BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB77EF41B99D174001461BB /* Main.storyboard */; };
@@ -160,6 +163,8 @@
 		3B255AF41B99E6F800192072 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		3B255AF61B99E78200192072 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		3B255AF71B99E78200192072 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		3B65AE8A1B9EFD90004F8EE0 /* Try.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Try.swift; sourceTree = "<group>"; };
+		3B65AE9C1B9F0566004F8EE0 /* RCTestTry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTestTry.swift; sourceTree = "<group>"; };
 		3BB77EEB1B99D174001461BB /* RCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB77EEF1B99D174001461BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BB77EF01B99D174001461BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -174,6 +179,7 @@
 		3BB77F201B99D328001461BB /* Box.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Box.xcodeproj; path = External/ReactiveCocoa/Carthage/Checkouts/Box/Box.xcodeproj; sourceTree = "<group>"; };
 		3BB77F2F1B99D32E001461BB /* Result.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Result.xcodeproj; path = External/ReactiveCocoa/Carthage/Checkouts/Result/Result.xcodeproj; sourceTree = "<group>"; };
 		3BB77F581B99D41E001461BB /* TestSignal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSignal.swift; sourceTree = "<group>"; };
+		3BE6BE351B9F2ED700D0EA2A /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +197,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B65AE9E1B9F0669004F8EE0 /* Box.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +212,14 @@
 				3B255AF71B99E78200192072 /* TestViewController.xib */,
 			);
 			name = mvvm;
+			sourceTree = "<group>";
+		};
+		3B65AE801B9EFD7D004F8EE0 /* primitives */ = {
+			isa = PBXGroup;
+			children = (
+				3B65AE8A1B9EFD90004F8EE0 /* Try.swift */,
+			);
+			name = primitives;
 			sourceTree = "<group>";
 		};
 		3BB77EE21B99D174001461BB = {
@@ -229,6 +244,7 @@
 		3BB77EED1B99D174001461BB /* RCTest */ = {
 			isa = PBXGroup;
 			children = (
+				3B65AE801B9EFD7D004F8EE0 /* primitives */,
 				3B255AF31B99E6E400192072 /* mvvm */,
 				3BB77EF01B99D174001461BB /* AppDelegate.swift */,
 				3BB77EF21B99D174001461BB /* ViewController.swift */,
@@ -237,6 +253,7 @@
 				3BB77EF91B99D174001461BB /* LaunchScreen.xib */,
 				3BB77EEE1B99D174001461BB /* Supporting Files */,
 				3BB77F581B99D41E001461BB /* TestSignal.swift */,
+				3BE6BE351B9F2ED700D0EA2A /* MyPlayground.playground */,
 			);
 			path = RCTest;
 			sourceTree = "<group>";
@@ -254,6 +271,7 @@
 			children = (
 				3BB77F061B99D174001461BB /* RCTestTests.swift */,
 				3BB77F041B99D174001461BB /* Supporting Files */,
+				3B65AE9C1B9F0566004F8EE0 /* RCTestTry.swift */,
 			);
 			path = RCTestTests;
 			sourceTree = "<group>";
@@ -519,6 +537,7 @@
 				3B255AF81B99E78200192072 /* TestViewController.swift in Sources */,
 				3BB77EF31B99D174001461BB /* ViewController.swift in Sources */,
 				3BB77EF11B99D174001461BB /* AppDelegate.swift in Sources */,
+				3B65AE8D1B9F0376004F8EE0 /* Try.swift in Sources */,
 				3B255AF51B99E6F800192072 /* ViewModel.swift in Sources */,
 				3BB77F591B99D41E001461BB /* TestSignal.swift in Sources */,
 			);
@@ -528,6 +547,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B65AE9D1B9F0566004F8EE0 /* RCTestTry.swift in Sources */,
 				3BB77F071B99D174001461BB /* RCTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
